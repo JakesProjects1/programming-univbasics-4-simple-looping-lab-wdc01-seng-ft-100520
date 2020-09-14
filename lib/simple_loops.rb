@@ -39,15 +39,16 @@ end
 output_array(array)
 
 
-numbers = [5, 4, 3, 2, 1]
+array = [5, 4, 3, 2, 1]
 
 def return_string_array(array)
-  counter = 0
-  while array[counter] do
-    puts array[counter].to_s
-    counter += 1
+  count = 0
+  while count < array.length do
+    array[count] = array[count].to_s
+    count += 1
   end
-end 
+  array
+end
 
-return_string_array(numbers)
+return_string_array(array)
   
