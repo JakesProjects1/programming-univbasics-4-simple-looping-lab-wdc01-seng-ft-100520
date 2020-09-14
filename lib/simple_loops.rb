@@ -26,6 +26,7 @@ loop_message_n_times("Hello Red Balloon.", 10)
 
 
 
+
 def output_array(array)
   
   puts array[counter]
