@@ -36,7 +36,7 @@ def output_array(array)
   end
 end
 
-array = [5, 4, 3, 2, 1]
+
 
 output_array(array)
 
