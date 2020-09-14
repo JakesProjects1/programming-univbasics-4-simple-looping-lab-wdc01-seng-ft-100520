@@ -38,5 +38,7 @@ end
 
 output_array(array)
 
+def return_string_array(array)
+end 
 
   
