@@ -48,4 +48,5 @@ def return_string_array(array)
   end
 end 
 
+return_string_array(array)
   
