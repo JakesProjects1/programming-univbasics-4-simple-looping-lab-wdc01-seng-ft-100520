@@ -40,6 +40,7 @@ output_array(array)
 
 
 
+
 def return_string_array(array)
   counter = 0
   while counter < array.length do
@@ -48,7 +49,7 @@ def return_string_array(array)
   end
 end 
 
-numbers = [5, 4, 3, 2, 1]
+
 
 return_string_array(numbers)
   
