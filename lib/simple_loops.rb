@@ -26,11 +26,14 @@ loop_message_n_times("Hello Red Balloon.", 10)
 
 
 
+array = [5, 4, 3, 2, 1]
 
 def output_array(array)
-  
-  puts array[counter]
-  counter += 1
+  counter = 0 
+  while array[counter] do
+    puts array[counter]
+    counter += 1
+  end
 end
 
 output_array(array)
