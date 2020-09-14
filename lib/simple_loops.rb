@@ -39,7 +39,7 @@ end
 output_array(array)
 
 
-
+numbers = [5, 4, 3, 2, 1]
 
 def return_string_array(array)
   counter = 0
@@ -48,8 +48,6 @@ def return_string_array(array)
     counter += 1
   end
 end 
-
-
 
 return_string_array(numbers)
   
